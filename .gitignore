@@ -1,0 +1,52 @@
+﻿# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies and builds
+node_modules/
+dist/
+dist-ssr/
+build/
+*.local
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and uploads
+*.db
+*.sqlite
+*.sqlite3
+backend/uploads/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+backend/venv/
+backend/__pycache__/
+__pycache__/
+*.pyc
+*.db
+*.sqlite
+*.sqlite3
+backend/uploads/
+.vscode/
